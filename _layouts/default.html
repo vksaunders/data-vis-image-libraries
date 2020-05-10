@@ -22,17 +22,20 @@
   <body>
     
 
-<header role="banner">
-    
-    
+   <header role="banner">
+      
+      <center>
+      <br>
       <br>
       <br>
       <h2 class="project-name">{{ repository.title | default: site.title | default: site.github.repository_name }}</h2>
       <h2 class="project-tagline">{{ page.description | default: site.description | default: site.github.project_tagline }}</h2>  
       <img src="https://user-images.githubusercontent.com/30129746/81487852-b110ae00-922f-11ea-9d57-b4c3ffd8f194.PNG">
- 
+      </center>
 
     </header>
+
+
 
     <main id="content" class="main-content" role="main">
       {{ content }}
